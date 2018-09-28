@@ -12,12 +12,12 @@ var per=variant;
 if(per>=7){alert("Вірно") ;}
 else{ alert("Невірно");}
 if(per%2==0){
-	per-=-7;
+	per=+per+7;
 	}
 else{per-=3;
 	}
 	alert(per);
-	Limit=(variant-(-10));
+	Limit=+variant+10;
 	document.write("Квадрати чисел від 1 до " +Limit +" :");
 	for(var i=1;i<=Limit;i++){
 		document.write("<br />" +i + " = " + (i*i)); 
